@@ -18,6 +18,5 @@ def delete_symbols(string):
     :return: строку без символов с нечетными индексами исходной строки
     """
     # todo Здесь нужно написать код
-    string = 'Hello World'
     new_string = string[0::2]
     return new_string

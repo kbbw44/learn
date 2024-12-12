@@ -23,7 +23,5 @@ def string_concatenation(str1, str2):
     """
 
     # todo Здесь нужно написать код
-    str1 = 'Апельсин'
-    str2 = 'Груша'
     result_string = (str2[:2] + str1[2:] + ' ' + str1[:2] + str2[2:])
     return result_string

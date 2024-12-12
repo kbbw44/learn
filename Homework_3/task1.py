@@ -21,6 +21,5 @@ def modification(lst):
     :return: преобразованный список
     """
     # todo Здесь нужно написать код
-    lst = [1, 2, 3]
-    lst.reverse()
+    lst[0], lst[-1] = lst[-1], lst[0]
     return lst

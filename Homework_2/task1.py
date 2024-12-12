@@ -21,7 +21,6 @@ def square_calculation(a):
     :return: периметр квадрата, площадь квадрата и диагональ квадрата
     """
     # todo Здесь нужно написать код
-    a = 10
     perimeter = a * 4
     square = a ** 2
     diagonal = round((a ** 2 + a ** 2) ** 0.5, 2)

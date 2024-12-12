@@ -25,8 +25,8 @@ def test_file_path(file_path):
     :return: название файла без расширения, названия диска и корневую папку
     """
     # todo Здесь нужно написать код
-    file_path = r'C:\Python311\python.exe'
-    file_name = file_path.split('\\')
-    disk_name = file_path.split(':')
-    root_folder = file_path.split('\\')
-    return ((file_name[2].split('.')[0]), disk_name[0], root_folder[1])
+    file_name_extension = file_path.split('\\')[-1]
+    file_name = file_name_extension.rsplit('.', 1)[0]
+    disk_name = file_path.split(':')[0]
+    root_folder = file_path.split('\\')[1]
+    return (file_name, disk_name, root_folder)

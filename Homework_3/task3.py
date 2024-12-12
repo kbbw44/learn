@@ -23,7 +23,6 @@ def even_sum(lst):
     :return: сумму элементов с четными индексами
     """
     # todo Здесь нужно написать код
-    lst = [1, 2, 3, 4, 5, 6, 7]
     b = lst[::2]
     even_sum = int(sum(b))
     return even_sum

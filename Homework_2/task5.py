@@ -25,8 +25,6 @@ def sum_and_multiplication(a, b):
     :return: сумму и произведение
     """
     # todo Здесь нужно написать код
-    a = 5
-    b = 10
     sum = a + b
     multi = a * b
     a_b_sum = "%s + %s = %s" % (a, b, sum)

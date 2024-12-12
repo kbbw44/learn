@@ -25,8 +25,6 @@ def quadratic(b, c):
     """
     # todo Здесь нужно написать код
     a = 1
-    b = -5
-    c = 4
     discriminant = b ** 2 - 4 * a * c
     x1 = round((-b + discriminant ** 0.5) / 2, 2)
     x2 = round((-b - discriminant ** 0.5) / 2, 2)

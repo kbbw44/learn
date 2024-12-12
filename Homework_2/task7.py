@@ -22,9 +22,6 @@ def minimum_length_slice(first_string, second_string):
     :return: min_slice срез минимальной длины строки second_string
     """
     # todo Здесь нужно написать код
-    first_string = 'wtf'
-    second_string = 'brick quz jmpy veldt whangs fox'
-
     w1 = second_string.find(first_string[0])
     w2 = second_string.find(first_string[1])
     w3 = second_string.find(first_string[2])
